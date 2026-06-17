@@ -578,6 +578,7 @@ body {
   color: var(--text-2);
   line-height: 1.75;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .about-text p:last-child {
