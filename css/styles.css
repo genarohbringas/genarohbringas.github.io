@@ -522,42 +522,43 @@ body {
 .hf {
   position: absolute;
   font-family: 'Courier New', 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
-  color: rgba(45, 158, 143, 0.35);
+  color: rgba(45, 158, 143, 0.45);
   white-space: nowrap;
   animation: floatDrift linear infinite;
-  border: 1px solid rgba(45, 158, 143, 0.12);
-  background: rgba(45, 158, 143, 0.05);
-  padding: 4px 10px;
-  border-radius: 4px;
+  border: 1px solid rgba(45, 158, 143, 0.18);
+  background: rgba(45, 158, 143, 0.08);
+  padding: 6px 14px;
+  border-radius: 5px;
   backdrop-filter: blur(2px);
 }
 
 /* Positions and individual timings */
-.hf-1  { top: 12%;  left: 4%;   animation-duration: 22s; animation-delay: 0s;    }
-.hf-2  { top: 20%;  right: 6%;  animation-duration: 18s; animation-delay: -4s;   font-size: 18px; color: rgba(45,158,143,0.45); border: none; background: none; }
-.hf-3  { top: 35%;  left: 2%;   animation-duration: 25s; animation-delay: -8s;   }
-.hf-4  { top: 8%;   right: 18%; animation-duration: 20s; animation-delay: -2s;   font-size: 15px; color: rgba(255,255,255,0.2); border: none; background: none; }
-.hf-5  { top: 55%;  left: 5%;   animation-duration: 28s; animation-delay: -12s;  }
-.hf-6  { top: 70%;  right: 8%;  animation-duration: 16s; animation-delay: -6s;   font-size: 16px; color: rgba(45,158,143,0.3); border: none; background: none; }
-.hf-7  { top: 78%;  left: 10%;  animation-duration: 23s; animation-delay: -15s;  }
-.hf-8  { top: 45%;  right: 4%;  animation-duration: 19s; animation-delay: -9s;   font-size: 14px; color: rgba(255,255,255,0.18); border: none; background: none; }
-.hf-9  { top: 88%;  left: 20%;  animation-duration: 26s; animation-delay: -3s;   }
-.hf-10 { top: 15%;  left: 30%;  animation-duration: 21s; animation-delay: -7s;   font-size: 20px; font-weight: 700; color: rgba(45,158,143,0.2); border: none; background: none; }
-.hf-11 { top: 62%;  right: 20%; animation-duration: 30s; animation-delay: -18s;  }
-.hf-12 { top: 82%;  right: 30%; animation-duration: 17s; animation-delay: -11s;  font-size: 22px; color: rgba(255,255,255,0.12); border: none; background: none; }
-.hf-13 { top: 92%;  left: 40%;  animation-duration: 24s; animation-delay: -5s;   }
-.hf-14 { top: 50%;  left: 22%;  animation-duration: 27s; animation-delay: -14s;  font-size: 13px; color: rgba(45,158,143,0.25); border: none; background: none; }
-.hf-15 { top: 30%;  right: 28%; animation-duration: 20s; animation-delay: -1s;   font-size: 13px; }
+.hf-1  { top: 12%;  left: 4%;   animation-duration: 18s; animation-delay: 0s;    font-size: 14px; }
+.hf-2  { top: 20%;  right: 6%;  animation-duration: 14s; animation-delay: -4s;   font-size: 26px; font-weight: 700; color: rgba(45,158,143,0.55); border: none; background: none; }
+.hf-3  { top: 35%;  left: 2%;   animation-duration: 20s; animation-delay: -8s;   font-size: 14px; }
+.hf-4  { top: 8%;   right: 18%; animation-duration: 16s; animation-delay: -2s;   font-size: 20px; color: rgba(255,255,255,0.28); border: none; background: none; }
+.hf-5  { top: 55%;  left: 5%;   animation-duration: 22s; animation-delay: -12s;  font-size: 14px; }
+.hf-6  { top: 70%;  right: 8%;  animation-duration: 13s; animation-delay: -6s;   font-size: 22px; color: rgba(45,158,143,0.4); border: none; background: none; }
+.hf-7  { top: 78%;  left: 10%;  animation-duration: 19s; animation-delay: -15s;  font-size: 15px; }
+.hf-8  { top: 45%;  right: 4%;  animation-duration: 15s; animation-delay: -9s;   font-size: 18px; color: rgba(255,255,255,0.25); border: none; background: none; }
+.hf-9  { top: 88%;  left: 20%;  animation-duration: 21s; animation-delay: -3s;   font-size: 16px; }
+.hf-10 { top: 15%;  left: 30%;  animation-duration: 17s; animation-delay: -7s;   font-size: 28px; font-weight: 700; color: rgba(45,158,143,0.28); border: none; background: none; }
+.hf-11 { top: 62%;  right: 20%; animation-duration: 24s; animation-delay: -18s;  font-size: 20px; }
+.hf-12 { top: 82%;  right: 30%; animation-duration: 13s; animation-delay: -11s;  font-size: 28px; color: rgba(255,255,255,0.18); border: none; background: none; }
+.hf-13 { top: 92%;  left: 40%;  animation-duration: 19s; animation-delay: -5s;   font-size: 20px; }
+.hf-14 { top: 50%;  left: 22%;  animation-duration: 22s; animation-delay: -14s;  font-size: 17px; color: rgba(45,158,143,0.32); border: none; background: none; }
+.hf-15 { top: 30%;  right: 28%; animation-duration: 16s; animation-delay: -1s;   font-size: 15px; }
 
 @keyframes floatDrift {
-  0%   { transform: translateY(0px)   translateX(0px); opacity: 0; }
+  0%   { transform: translateY(0px)    translateX(0px);   opacity: 0; }
   10%  { opacity: 1; }
-  45%  { transform: translateY(-18px) translateX(8px); }
-  55%  { transform: translateY(-22px) translateX(-5px); }
+  30%  { transform: translateY(-30px)  translateX(18px); }
+  55%  { transform: translateY(-55px)  translateX(-12px); }
+  80%  { transform: translateY(-75px)  translateX(10px); }
   90%  { opacity: 1; }
-  100% { transform: translateY(-40px) translateX(0px); opacity: 0; }
+  100% { transform: translateY(-100px) translateX(0px);   opacity: 0; }
 }
 
 
