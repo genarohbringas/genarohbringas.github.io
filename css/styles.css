@@ -1094,18 +1094,26 @@ body {
   line-height: 1.65;
 }
 
-.contact-sensitive {
+.contact-phone {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
   background: var(--surface-2);
   border: 1px solid var(--border);
   padding: 8px 16px;
   border-radius: 6px;
   margin-bottom: 32px;
+  text-decoration: none;
+  transition: var(--transition-lift), border-color var(--duration-fast) var(--ease-standard);
+}
+
+.contact-phone:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--accent-mid);
 }
 
 .contact-actions {
