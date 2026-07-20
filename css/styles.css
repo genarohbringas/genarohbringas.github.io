@@ -383,10 +383,10 @@ body {
 }
 
 .biz-name {
-  font-size: 52px;
+  font-size: 40px;
   font-weight: 900;
-  line-height: 0.92;
-  letter-spacing: -1.5px;
+  line-height: 1.05;
+  letter-spacing: -1px;
 }
 
 .biz-name span {
