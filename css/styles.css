@@ -755,20 +755,22 @@ body {
   gap: 20px;
 }
 
+#proyectos .container {
+  max-width: 1140px;
+}
+
 .project-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 20px;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
 }
 
 .project-video {
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 */
-  border-radius: 8px;
-  overflow: hidden;
   background: #000;
 }
 
@@ -781,7 +783,8 @@ body {
 }
 
 .project-caption {
-  margin-top: 20px;
+  margin: 0;
+  padding: 20px 24px 24px;
   color: var(--text-2);
   line-height: 1.7;
 }
