@@ -994,6 +994,14 @@ body {
   margin-top: 10px;
 }
 
+.edu-note {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
 /* ══════════════════════════════════════
    SKILLS
 ══════════════════════════════════════ */
